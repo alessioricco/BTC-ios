@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F7037A1DE8ECAD0043E607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F703791DE8ECAD0043E607 /* AppDelegate.swift */; };
+		05F7037C1DE8ECAD0043E607 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7037B1DE8ECAD0043E607 /* RootViewController.swift */; };
+		05F7037E1DE8ECAD0043E607 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7037D1DE8ECAD0043E607 /* DataViewController.swift */; };
+		05F703801DE8ECAD0043E607 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7037F1DE8ECAD0043E607 /* ModelController.swift */; };
+		05F703831DE8ECAD0043E607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F703811DE8ECAD0043E607 /* Main.storyboard */; };
+		05F703851DE8ECAD0043E607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F703841DE8ECAD0043E607 /* Assets.xcassets */; };
+		05F703881DE8ECAD0043E607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F703861DE8ECAD0043E607 /* LaunchScreen.storyboard */; };
+		05F703931DE8ECAD0043E607 /* BTCosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F703921DE8ECAD0043E607 /* BTCosTests.swift */; };
+		05F7039E1DE8ECAD0043E607 /* BTCosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7039D1DE8ECAD0043E607 /* BTCosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05F7038F1DE8ECAD0043E607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F7036E1DE8ECAC0043E607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F703751DE8ECAC0043E607;
+			remoteInfo = BTCos;
+		};
+		05F7039A1DE8ECAD0043E607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F7036E1DE8ECAC0043E607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F703751DE8ECAC0043E607;
+			remoteInfo = BTCos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F703761DE8ECAD0043E607 /* BTCos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F703791DE8ECAD0043E607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05F7037B1DE8ECAD0043E607 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		05F7037D1DE8ECAD0043E607 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		05F7037F1DE8ECAD0043E607 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		05F703821DE8ECAD0043E607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05F703841DE8ECAD0043E607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05F703871DE8ECAD0043E607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05F703891DE8ECAD0043E607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F7038E1DE8ECAD0043E607 /* BTCosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F703921DE8ECAD0043E607 /* BTCosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCosTests.swift; sourceTree = "<group>"; };
+		05F703941DE8ECAD0043E607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F703991DE8ECAD0043E607 /* BTCosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F7039D1DE8ECAD0043E607 /* BTCosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCosUITests.swift; sourceTree = "<group>"; };
+		05F7039F1DE8ECAD0043E607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F703731DE8ECAC0043E607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F7038B1DE8ECAD0043E607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F703961DE8ECAD0043E607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F7036D1DE8ECAC0043E607 = {
+			isa = PBXGroup;
+			children = (
+				05F703781DE8ECAD0043E607 /* BTCos */,
+				05F703911DE8ECAD0043E607 /* BTCosTests */,
+				05F7039C1DE8ECAD0043E607 /* BTCosUITests */,
+				05F703771DE8ECAD0043E607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05F703771DE8ECAD0043E607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F703761DE8ECAD0043E607 /* BTCos.app */,
+				05F7038E1DE8ECAD0043E607 /* BTCosTests.xctest */,
+				05F703991DE8ECAD0043E607 /* BTCosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F703781DE8ECAD0043E607 /* BTCos */ = {
+			isa = PBXGroup;
+			children = (
+				05F703791DE8ECAD0043E607 /* AppDelegate.swift */,
+				05F7037B1DE8ECAD0043E607 /* RootViewController.swift */,
+				05F7037D1DE8ECAD0043E607 /* DataViewController.swift */,
+				05F7037F1DE8ECAD0043E607 /* ModelController.swift */,
+				05F703811DE8ECAD0043E607 /* Main.storyboard */,
+				05F703841DE8ECAD0043E607 /* Assets.xcassets */,
+				05F703861DE8ECAD0043E607 /* LaunchScreen.storyboard */,
+				05F703891DE8ECAD0043E607 /* Info.plist */,
+			);
+			path = BTCos;
+			sourceTree = "<group>";
+		};
+		05F703911DE8ECAD0043E607 /* BTCosTests */ = {
+			isa = PBXGroup;
+			children = (
+				05F703921DE8ECAD0043E607 /* BTCosTests.swift */,
+				05F703941DE8ECAD0043E607 /* Info.plist */,
+			);
+			path = BTCosTests;
+			sourceTree = "<group>";
+		};
+		05F7039C1DE8ECAD0043E607 /* BTCosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05F7039D1DE8ECAD0043E607 /* BTCosUITests.swift */,
+				05F7039F1DE8ECAD0043E607 /* Info.plist */,
+			);
+			path = BTCosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F703751DE8ECAC0043E607 /* BTCos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F703A21DE8ECAD0043E607 /* Build configuration list for PBXNativeTarget "BTCos" */;
+			buildPhases = (
+				05F703721DE8ECAC0043E607 /* Sources */,
+				05F703731DE8ECAC0043E607 /* Frameworks */,
+				05F703741DE8ECAC0043E607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTCos;
+			productName = BTCos;
+			productReference = 05F703761DE8ECAD0043E607 /* BTCos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05F7038D1DE8ECAD0043E607 /* BTCosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F703A51DE8ECAD0043E607 /* Build configuration list for PBXNativeTarget "BTCosTests" */;
+			buildPhases = (
+				05F7038A1DE8ECAD0043E607 /* Sources */,
+				05F7038B1DE8ECAD0043E607 /* Frameworks */,
+				05F7038C1DE8ECAD0043E607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F703901DE8ECAD0043E607 /* PBXTargetDependency */,
+			);
+			name = BTCosTests;
+			productName = BTCosTests;
+			productReference = 05F7038E1DE8ECAD0043E607 /* BTCosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05F703981DE8ECAD0043E607 /* BTCosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F703A81DE8ECAD0043E607 /* Build configuration list for PBXNativeTarget "BTCosUITests" */;
+			buildPhases = (
+				05F703951DE8ECAD0043E607 /* Sources */,
+				05F703961DE8ECAD0043E607 /* Frameworks */,
+				05F703971DE8ECAD0043E607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F7039B1DE8ECAD0043E607 /* PBXTargetDependency */,
+			);
+			name = BTCosUITests;
+			productName = BTCosUITests;
+			productReference = 05F703991DE8ECAD0043E607 /* BTCosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F7036E1DE8ECAC0043E607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "alessio ricco";
+				TargetAttributes = {
+					05F703751DE8ECAC0043E607 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ADUM84ND53;
+						ProvisioningStyle = Automatic;
+					};
+					05F7038D1DE8ECAD0043E607 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ADUM84ND53;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05F703751DE8ECAC0043E607;
+					};
+					05F703981DE8ECAD0043E607 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ADUM84ND53;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05F703751DE8ECAC0043E607;
+					};
+				};
+			};
+			buildConfigurationList = 05F703711DE8ECAC0043E607 /* Build configuration list for PBXProject "BTCos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F7036D1DE8ECAC0043E607;
+			productRefGroup = 05F703771DE8ECAD0043E607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F703751DE8ECAC0043E607 /* BTCos */,
+				05F7038D1DE8ECAD0043E607 /* BTCosTests */,
+				05F703981DE8ECAD0043E607 /* BTCosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F703741DE8ECAC0043E607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F703881DE8ECAD0043E607 /* LaunchScreen.storyboard in Resources */,
+				05F703851DE8ECAD0043E607 /* Assets.xcassets in Resources */,
+				05F703831DE8ECAD0043E607 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F7038C1DE8ECAD0043E607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F703971DE8ECAD0043E607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F703721DE8ECAC0043E607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F7037C1DE8ECAD0043E607 /* RootViewController.swift in Sources */,
+				05F703801DE8ECAD0043E607 /* ModelController.swift in Sources */,
+				05F7037E1DE8ECAD0043E607 /* DataViewController.swift in Sources */,
+				05F7037A1DE8ECAD0043E607 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F7038A1DE8ECAD0043E607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F703931DE8ECAD0043E607 /* BTCosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F703951DE8ECAD0043E607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F7039E1DE8ECAD0043E607 /* BTCosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05F703901DE8ECAD0043E607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F703751DE8ECAC0043E607 /* BTCos */;
+			targetProxy = 05F7038F1DE8ECAD0043E607 /* PBXContainerItemProxy */;
+		};
+		05F7039B1DE8ECAD0043E607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F703751DE8ECAC0043E607 /* BTCos */;
+			targetProxy = 05F7039A1DE8ECAD0043E607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05F703811DE8ECAD0043E607 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F703821DE8ECAD0043E607 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05F703861DE8ECAD0043E607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F703871DE8ECAD0043E607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05F703A01DE8ECAD0043E607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05F703A11DE8ECAD0043E607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05F703A31DE8ECAD0043E607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ADUM84ND53;
+				INFOPLIST_FILE = BTCos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.alessioricco.BTCos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		05F703A41DE8ECAD0043E607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ADUM84ND53;
+				INFOPLIST_FILE = BTCos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.alessioricco.BTCos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		05F703A61DE8ECAD0043E607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ADUM84ND53;
+				INFOPLIST_FILE = BTCosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.alessioricco.BTCosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTCos.app/BTCos";
+			};
+			name = Debug;
+		};
+		05F703A71DE8ECAD0043E607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ADUM84ND53;
+				INFOPLIST_FILE = BTCosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.alessioricco.BTCosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTCos.app/BTCos";
+			};
+			name = Release;
+		};
+		05F703A91DE8ECAD0043E607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ADUM84ND53;
+				INFOPLIST_FILE = BTCosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.alessioricco.BTCosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BTCos;
+			};
+			name = Debug;
+		};
+		05F703AA1DE8ECAD0043E607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ADUM84ND53;
+				INFOPLIST_FILE = BTCosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.alessioricco.BTCosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BTCos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F703711DE8ECAC0043E607 /* Build configuration list for PBXProject "BTCos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F703A01DE8ECAD0043E607 /* Debug */,
+				05F703A11DE8ECAD0043E607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F703A21DE8ECAD0043E607 /* Build configuration list for PBXNativeTarget "BTCos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F703A31DE8ECAD0043E607 /* Debug */,
+				05F703A41DE8ECAD0043E607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05F703A51DE8ECAD0043E607 /* Build configuration list for PBXNativeTarget "BTCosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F703A61DE8ECAD0043E607 /* Debug */,
+				05F703A71DE8ECAD0043E607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05F703A81DE8ECAD0043E607 /* Build configuration list for PBXNativeTarget "BTCosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F703A91DE8ECAD0043E607 /* Debug */,
+				05F703AA1DE8ECAD0043E607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F7036E1DE8ECAC0043E607 /* Project object */;
+}
