@@ -16,6 +16,9 @@
 		05F703881DE8ECAD0043E607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F703861DE8ECAD0043E607 /* LaunchScreen.storyboard */; };
 		05F703931DE8ECAD0043E607 /* BTCosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F703921DE8ECAD0043E607 /* BTCosTests.swift */; };
 		05F7039E1DE8ECAD0043E607 /* BTCosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7039D1DE8ECAD0043E607 /* BTCosUITests.swift */; };
+		0B0E747DAFE73BA990DDED41 /* Pods_BTCos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5946CE6538A0A06C2886B2 /* Pods_BTCos.framework */; };
+		442A518F5F81786C79BC0851 /* libPods-BTCosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E60D782390021455E099C22 /* libPods-BTCosUITests.a */; };
+		7FCFBDC713FD7DFADD29E45C /* libPods-BTCosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FC9B5C46B0E60C5738E9E3 /* libPods-BTCosTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		05F703991DE8ECAD0043E607 /* BTCosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F7039D1DE8ECAD0043E607 /* BTCosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCosUITests.swift; sourceTree = "<group>"; };
 		05F7039F1DE8ECAD0043E607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5946CE6538A0A06C2886B2 /* Pods_BTCos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTCos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4365CDEE1DFE3E98DBE836FD /* Pods-BTCosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTCosUITests/Pods-BTCosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		55714F93078288584458D734 /* Pods-BTCosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTCosTests/Pods-BTCosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60FC9B5C46B0E60C5738E9E3 /* libPods-BTCosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTCosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DE24D07F7A58BAFC20A9CD /* Pods-BTCos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCos.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTCos/Pods-BTCos.release.xcconfig"; sourceTree = "<group>"; };
+		8E60D782390021455E099C22 /* libPods-BTCosUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTCosUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B75AAFF0C38C6623A14FD7 /* Pods-BTCosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTCosTests/Pods-BTCosTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC229B21F08BD93CF40EAA85 /* Pods-BTCos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTCos/Pods-BTCos.debug.xcconfig"; sourceTree = "<group>"; };
+		FBA7DFD1DA67AB2646C9812B /* Pods-BTCosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTCosUITests/Pods-BTCosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0E747DAFE73BA990DDED41 /* Pods_BTCos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FCFBDC713FD7DFADD29E45C /* libPods-BTCosTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442A518F5F81786C79BC0851 /* libPods-BTCosUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05EF0CF31DE8FF7F00411220 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		05EF0CF41DE8FF9500411220 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				05F7037F1DE8ECAD0043E607 /* ModelController.swift */,
+				05F7037B1DE8ECAD0043E607 /* RootViewController.swift */,
+				05F7037D1DE8ECAD0043E607 /* DataViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		05EF0CF51DE8FFA700411220 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		05EF0CF61DE8FFB700411220 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		05EF0CF71DE8FFC000411220 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		05EF0CF81DE9001900411220 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		05EF0CF91DE9006F00411220 /* Injection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Injection;
+			sourceTree = "<group>";
+		};
+		05EF0CFA1DE9017100411220 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				05F703811DE8ECAD0043E607 /* Main.storyboard */,
+				05F703861DE8ECAD0043E607 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
 		05F7036D1DE8ECAC0043E607 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +161,8 @@
 				05F703911DE8ECAD0043E607 /* BTCosTests */,
 				05F7039C1DE8ECAD0043E607 /* BTCosUITests */,
 				05F703771DE8ECAD0043E607 /* Products */,
+				AEC6E1A0C035AD5E2449A9EC /* Pods */,
+				36E254433A0522CD6B0FC227 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +179,16 @@
 		05F703781DE8ECAD0043E607 /* BTCos */ = {
 			isa = PBXGroup;
 			children = (
+				05EF0CFA1DE9017100411220 /* StoryBoards */,
+				05EF0CF91DE9006F00411220 /* Injection */,
+				05EF0CF81DE9001900411220 /* Utils */,
+				05EF0CF71DE8FFC000411220 /* API */,
+				05EF0CF61DE8FFB700411220 /* Services */,
+				05EF0CF51DE8FFA700411220 /* ViewModels */,
+				05EF0CF41DE8FF9500411220 /* ViewControllers */,
+				05EF0CF31DE8FF7F00411220 /* Models */,
 				05F703791DE8ECAD0043E607 /* AppDelegate.swift */,
-				05F7037B1DE8ECAD0043E607 /* RootViewController.swift */,
-				05F7037D1DE8ECAD0043E607 /* DataViewController.swift */,
-				05F7037F1DE8ECAD0043E607 /* ModelController.swift */,
-				05F703811DE8ECAD0043E607 /* Main.storyboard */,
 				05F703841DE8ECAD0043E607 /* Assets.xcassets */,
-				05F703861DE8ECAD0043E607 /* LaunchScreen.storyboard */,
 				05F703891DE8ECAD0043E607 /* Info.plist */,
 			);
 			path = BTCos;
@@ -131,6 +212,29 @@
 			path = BTCosUITests;
 			sourceTree = "<group>";
 		};
+		36E254433A0522CD6B0FC227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B5946CE6538A0A06C2886B2 /* Pods_BTCos.framework */,
+				60FC9B5C46B0E60C5738E9E3 /* libPods-BTCosTests.a */,
+				8E60D782390021455E099C22 /* libPods-BTCosUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEC6E1A0C035AD5E2449A9EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC229B21F08BD93CF40EAA85 /* Pods-BTCos.debug.xcconfig */,
+				77DE24D07F7A58BAFC20A9CD /* Pods-BTCos.release.xcconfig */,
+				55714F93078288584458D734 /* Pods-BTCosTests.debug.xcconfig */,
+				B5B75AAFF0C38C6623A14FD7 /* Pods-BTCosTests.release.xcconfig */,
+				FBA7DFD1DA67AB2646C9812B /* Pods-BTCosUITests.debug.xcconfig */,
+				4365CDEE1DFE3E98DBE836FD /* Pods-BTCosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05F703A21DE8ECAD0043E607 /* Build configuration list for PBXNativeTarget "BTCos" */;
 			buildPhases = (
+				D6D7507365784E4CBA249895 /* [CP] Check Pods Manifest.lock */,
 				05F703721DE8ECAC0043E607 /* Sources */,
 				05F703731DE8ECAC0043E607 /* Frameworks */,
 				05F703741DE8ECAC0043E607 /* Resources */,
+				ABE7C714ECD44A8CE857B61F /* [CP] Embed Pods Frameworks */,
+				ABC0B9066F157FA773FF84D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05F703A51DE8ECAD0043E607 /* Build configuration list for PBXNativeTarget "BTCosTests" */;
 			buildPhases = (
+				4E09F870B6B06366CAAE95F3 /* [CP] Check Pods Manifest.lock */,
 				05F7038A1DE8ECAD0043E607 /* Sources */,
 				05F7038B1DE8ECAD0043E607 /* Frameworks */,
 				05F7038C1DE8ECAD0043E607 /* Resources */,
+				B68C6E48B783D7A61F51D2A8 /* [CP] Embed Pods Frameworks */,
+				28E3DA2A7673AEDD5B8A96F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05F703A81DE8ECAD0043E607 /* Build configuration list for PBXNativeTarget "BTCosUITests" */;
 			buildPhases = (
+				D23EBF0AC28D62FD5C6E21DA /* [CP] Check Pods Manifest.lock */,
 				05F703951DE8ECAD0043E607 /* Sources */,
 				05F703961DE8ECAD0043E607 /* Frameworks */,
 				05F703971DE8ECAD0043E607 /* Resources */,
+				CE9BDA46506771295F945FFF /* [CP] Embed Pods Frameworks */,
+				B753D9D2B3C760B27EE81C2B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +375,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28E3DA2A7673AEDD5B8A96F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTCosTests/Pods-BTCosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E09F870B6B06366CAAE95F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC0B9066F157FA773FF84D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTCos/Pods-BTCos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABE7C714ECD44A8CE857B61F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTCos/Pods-BTCos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B68C6E48B783D7A61F51D2A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTCosTests/Pods-BTCosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B753D9D2B3C760B27EE81C2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTCosUITests/Pods-BTCosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9BDA46506771295F945FFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTCosUITests/Pods-BTCosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D23EBF0AC28D62FD5C6E21DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D7507365784E4CBA249895 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		05F703721DE8ECAC0043E607 /* Sources */ = {
@@ -421,7 +672,9 @@
 		};
 		05F703A31DE8ECAD0043E607 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC229B21F08BD93CF40EAA85 /* Pods-BTCos.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCos/Info.plist;
@@ -434,7 +687,9 @@
 		};
 		05F703A41DE8ECAD0043E607 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77DE24D07F7A58BAFC20A9CD /* Pods-BTCos.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCos/Info.plist;
@@ -447,8 +702,9 @@
 		};
 		05F703A61DE8ECAD0043E607 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55714F93078288584458D734 /* Pods-BTCosTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCosTests/Info.plist;
@@ -462,8 +718,9 @@
 		};
 		05F703A71DE8ECAD0043E607 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B75AAFF0C38C6623A14FD7 /* Pods-BTCosTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCosTests/Info.plist;
@@ -477,8 +734,9 @@
 		};
 		05F703A91DE8ECAD0043E607 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA7DFD1DA67AB2646C9812B /* Pods-BTCosUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -491,8 +749,9 @@
 		};
 		05F703AA1DE8ECAD0043E607 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4365CDEE1DFE3E98DBE836FD /* Pods-BTCosUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -522,6 +781,7 @@
 				05F703A41DE8ECAD0043E607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05F703A51DE8ECAD0043E607 /* Build configuration list for PBXNativeTarget "BTCosTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +790,7 @@
 				05F703A71DE8ECAD0043E607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05F703A81DE8ECAD0043E607 /* Build configuration list for PBXNativeTarget "BTCosUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +799,7 @@
 				05F703AA1DE8ECAD0043E607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
