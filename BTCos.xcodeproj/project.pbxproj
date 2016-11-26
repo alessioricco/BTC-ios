@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05F7037A1DE8ECAD0043E607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F703791DE8ECAD0043E607 /* AppDelegate.swift */; };
-		05F7037C1DE8ECAD0043E607 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7037B1DE8ECAD0043E607 /* RootViewController.swift */; };
-		05F7037E1DE8ECAD0043E607 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7037D1DE8ECAD0043E607 /* DataViewController.swift */; };
-		05F703801DE8ECAD0043E607 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7037F1DE8ECAD0043E607 /* ModelController.swift */; };
-		05F703831DE8ECAD0043E607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F703811DE8ECAD0043E607 /* Main.storyboard */; };
+		05206BFF1DE98FE9000F9B60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05206BFE1DE98FE9000F9B60 /* ViewController.swift */; };
+		05206C011DE98FFB000F9B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05206C001DE98FFB000F9B60 /* AppDelegate.swift */; };
+		05206C061DE99015000F9B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05206C021DE99015000F9B60 /* LaunchScreen.storyboard */; };
+		05206C071DE99015000F9B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05206C041DE99015000F9B60 /* Main.storyboard */; };
 		05F703851DE8ECAD0043E607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F703841DE8ECAD0043E607 /* Assets.xcassets */; };
-		05F703881DE8ECAD0043E607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F703861DE8ECAD0043E607 /* LaunchScreen.storyboard */; };
 		05F703931DE8ECAD0043E607 /* BTCosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F703921DE8ECAD0043E607 /* BTCosTests.swift */; };
 		05F7039E1DE8ECAD0043E607 /* BTCosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7039D1DE8ECAD0043E607 /* BTCosUITests.swift */; };
 		0B0E747DAFE73BA990DDED41 /* Pods_BTCos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5946CE6538A0A06C2886B2 /* Pods_BTCos.framework */; };
@@ -39,14 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05206BFE1DE98FE9000F9B60 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05206C001DE98FFB000F9B60 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05206C031DE99015000F9B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05206C051DE99015000F9B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05F703761DE8ECAD0043E607 /* BTCos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		05F703791DE8ECAD0043E607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05F7037B1DE8ECAD0043E607 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		05F7037D1DE8ECAD0043E607 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		05F7037F1DE8ECAD0043E607 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		05F703821DE8ECAD0043E607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05F703841DE8ECAD0043E607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05F703871DE8ECAD0043E607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05F703891DE8ECAD0043E607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05F7038E1DE8ECAD0043E607 /* BTCosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F703921DE8ECAD0043E607 /* BTCosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCosTests.swift; sourceTree = "<group>"; };
@@ -96,6 +92,8 @@
 		05EF0CF31DE8FF7F00411220 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				05206BFE1DE98FE9000F9B60 /* ViewController.swift */,
+				05206C001DE98FFB000F9B60 /* AppDelegate.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -103,9 +101,6 @@
 		05EF0CF41DE8FF9500411220 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				05F7037F1DE8ECAD0043E607 /* ModelController.swift */,
-				05F7037B1DE8ECAD0043E607 /* RootViewController.swift */,
-				05F7037D1DE8ECAD0043E607 /* DataViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -148,8 +143,8 @@
 		05EF0CFA1DE9017100411220 /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
-				05F703811DE8ECAD0043E607 /* Main.storyboard */,
-				05F703861DE8ECAD0043E607 /* LaunchScreen.storyboard */,
+				05206C021DE99015000F9B60 /* LaunchScreen.storyboard */,
+				05206C041DE99015000F9B60 /* Main.storyboard */,
 			);
 			name = StoryBoards;
 			sourceTree = "<group>";
@@ -187,7 +182,6 @@
 				05EF0CF51DE8FFA700411220 /* ViewModels */,
 				05EF0CF41DE8FF9500411220 /* ViewControllers */,
 				05EF0CF31DE8FF7F00411220 /* Models */,
-				05F703791DE8ECAD0043E607 /* AppDelegate.swift */,
 				05F703841DE8ECAD0043E607 /* Assets.xcassets */,
 				05F703891DE8ECAD0043E607 /* Info.plist */,
 			);
@@ -313,6 +307,7 @@
 					05F703751DE8ECAC0043E607 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = ADUM84ND53;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					05F7038D1DE8ECAD0043E607 = {
@@ -354,9 +349,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05F703881DE8ECAD0043E607 /* LaunchScreen.storyboard in Resources */,
+				05206C071DE99015000F9B60 /* Main.storyboard in Resources */,
 				05F703851DE8ECAD0043E607 /* Assets.xcassets in Resources */,
-				05F703831DE8ECAD0043E607 /* Main.storyboard in Resources */,
+				05206C061DE99015000F9B60 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,10 +514,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05F7037C1DE8ECAD0043E607 /* RootViewController.swift in Sources */,
-				05F703801DE8ECAD0043E607 /* ModelController.swift in Sources */,
-				05F7037E1DE8ECAD0043E607 /* DataViewController.swift in Sources */,
-				05F7037A1DE8ECAD0043E607 /* AppDelegate.swift in Sources */,
+				05206C011DE98FFB000F9B60 /* AppDelegate.swift in Sources */,
+				05206BFF1DE98FE9000F9B60 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,20 +551,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		05F703811DE8ECAD0043E607 /* Main.storyboard */ = {
+		05206C021DE99015000F9B60 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				05F703821DE8ECAD0043E607 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		05F703861DE8ECAD0043E607 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05F703871DE8ECAD0043E607 /* Base */,
+				05206C031DE99015000F9B60 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		05206C041DE99015000F9B60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05206C051DE99015000F9B60 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -676,11 +669,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.alessioricco.BTCos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -691,8 +687,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.alessioricco.BTCos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -704,7 +702,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55714F93078288584458D734 /* Pods-BTCosTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCosTests/Info.plist;
@@ -720,7 +718,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5B75AAFF0C38C6623A14FD7 /* Pods-BTCosTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCosTests/Info.plist;
@@ -736,7 +734,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FBA7DFD1DA67AB2646C9812B /* Pods-BTCosUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -751,7 +749,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4365CDEE1DFE3E98DBE836FD /* Pods-BTCosUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

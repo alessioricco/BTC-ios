@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  BTCos
+//  deleteme
 //
-//  Created by alessio ricco on 25/11/2016.
+//  Created by alessio ricco on 26/11/2016.
 //  Copyright © 2016 alessio ricco. All rights reserved.
 //
 
