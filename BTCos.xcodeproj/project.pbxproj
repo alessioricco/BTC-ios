@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,12 +11,12 @@
 		05206C011DE98FFB000F9B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05206C001DE98FFB000F9B60 /* AppDelegate.swift */; };
 		05206C061DE99015000F9B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05206C021DE99015000F9B60 /* LaunchScreen.storyboard */; };
 		05206C071DE99015000F9B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05206C041DE99015000F9B60 /* Main.storyboard */; };
+		057FA46C1DEB8B9500BAB2B3 /* UIAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057FA46B1DEB8B9500BAB2B3 /* UIAutoLayoutViewController.swift */; };
 		05F703851DE8ECAD0043E607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F703841DE8ECAD0043E607 /* Assets.xcassets */; };
 		05F703931DE8ECAD0043E607 /* BTCosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F703921DE8ECAD0043E607 /* BTCosTests.swift */; };
 		05F7039E1DE8ECAD0043E607 /* BTCosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7039D1DE8ECAD0043E607 /* BTCosUITests.swift */; };
 		0B0E747DAFE73BA990DDED41 /* Pods_BTCos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5946CE6538A0A06C2886B2 /* Pods_BTCos.framework */; };
 		442A518F5F81786C79BC0851 /* libPods-BTCosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E60D782390021455E099C22 /* libPods-BTCosUITests.a */; };
-		7FCFBDC713FD7DFADD29E45C /* libPods-BTCosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FC9B5C46B0E60C5738E9E3 /* libPods-BTCosTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,7 @@
 		05206C001DE98FFB000F9B60 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05206C031DE99015000F9B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05206C051DE99015000F9B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		057FA46B1DEB8B9500BAB2B3 /* UIAutoLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAutoLayoutViewController.swift; sourceTree = "<group>"; };
 		05F703761DE8ECAD0043E607 /* BTCos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F703841DE8ECAD0043E607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05F703891DE8ECAD0043E607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		0B5946CE6538A0A06C2886B2 /* Pods_BTCos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTCos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4365CDEE1DFE3E98DBE836FD /* Pods-BTCosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTCosUITests/Pods-BTCosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		55714F93078288584458D734 /* Pods-BTCosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTCosTests/Pods-BTCosTests.debug.xcconfig"; sourceTree = "<group>"; };
-		60FC9B5C46B0E60C5738E9E3 /* libPods-BTCosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTCosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77DE24D07F7A58BAFC20A9CD /* Pods-BTCos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCos.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTCos/Pods-BTCos.release.xcconfig"; sourceTree = "<group>"; };
 		8E60D782390021455E099C22 /* libPods-BTCosUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTCosUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B75AAFF0C38C6623A14FD7 /* Pods-BTCosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTCosTests/Pods-BTCosTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FCFBDC713FD7DFADD29E45C /* libPods-BTCosTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +128,7 @@
 		05EF0CF81DE9001900411220 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				057FA46B1DEB8B9500BAB2B3 /* UIAutoLayoutViewController.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -210,7 +210,6 @@
 			isa = PBXGroup;
 			children = (
 				0B5946CE6538A0A06C2886B2 /* Pods_BTCos.framework */,
-				60FC9B5C46B0E60C5738E9E3 /* libPods-BTCosTests.a */,
 				8E60D782390021455E099C22 /* libPods-BTCosUITests.a */,
 			);
 			name = Frameworks;
@@ -325,7 +324,7 @@
 				};
 			};
 			buildConfigurationList = 05F703711DE8ECAC0043E607 /* Build configuration list for PBXProject "BTCos" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -515,6 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05206C011DE98FFB000F9B60 /* AppDelegate.swift in Sources */,
+				057FA46C1DEB8B9500BAB2B3 /* UIAutoLayoutViewController.swift in Sources */,
 				05206BFF1DE98FE9000F9B60 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +588,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -610,7 +611,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -638,6 +639,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -654,7 +656,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -667,7 +669,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC229B21F08BD93CF40EAA85 /* Pods-BTCos.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ADUM84ND53;
@@ -685,7 +687,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77DE24D07F7A58BAFC20A9CD /* Pods-BTCos.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ADUM84ND53;
@@ -702,7 +704,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55714F93078288584458D734 /* Pods-BTCosTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCosTests/Info.plist;
@@ -718,7 +720,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5B75AAFF0C38C6623A14FD7 /* Pods-BTCosTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCosTests/Info.plist;
@@ -734,7 +736,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FBA7DFD1DA67AB2646C9812B /* Pods-BTCosUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -749,7 +751,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4365CDEE1DFE3E98DBE836FD /* Pods-BTCosUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = ADUM84ND53;
 				INFOPLIST_FILE = BTCosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
